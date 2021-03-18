@@ -238,7 +238,7 @@ table.block_breaker td,table.block_breaker th{
 }
 .smallicons span.ci{
 	background-image: url("colorful_items.png");
-	background-size: 144px 1408px;
+	background-size: 144px 1440px;
 }
 .smallicons span.icons18{
 	background-image: url("icons18.png");
@@ -266,7 +266,7 @@ span.ui a, a.ui{
 }
 span.ui a.ci, a.ci{
 	background-image: url("colorful_items.png");
-	background-size: 288px 2816px;
+	background-size: 288px 2880px;
 }
 span.ui a.icons18, a.icons18{
 	background-image: url("icons18.png");
@@ -2264,8 +2264,8 @@ span.ui a.xp_orb, a.xp_orb{
 .axolotl_head_cyan                  {background-position: -128px -2688px;}
 .axolotl_head_blue                  {background-position: -160px -2688px;}
 .mob_glow_squid                     {background-position: -192px -2688px;}
-.tomato_seedling                    {background-position: -224px -2688px;}
-.strawberry_seedling                {background-position: -256px -2688px;}
+.tomato_seedlings                   {background-position: -224px -2688px;}
+.strawberry_seedlings               {background-position: -256px -2688px;}
 .primrose                           {background-position: -000px -2720px;}
 .forget_me_not                      {background-position: -032px -2720px;}
 .dandelion_bush                     {background-position: -064px -2720px;}
@@ -2279,6 +2279,25 @@ span.ui a.xp_orb, a.xp_orb{
 .strawberry2                        {background-position: -032px -2752px;}
 .strawberry3                        {background-position: -064px -2752px;}
 .strawberry4                        {background-position: -096px -2752px;}
+.blueberry0                         {background-position: -128px -2752px;}
+.blueberry1                         {background-position: -160px -2752px;}
+.blueberry2                         {background-position: -192px -2752px;}
+.blueberry3                         {background-position: -224px -2752px;}
+.blueberry4                         {background-position: -256px -2752px;}
+.pineapple0                         {background-position: -000px -2784px;}
+.pineapple1                         {background-position: -032px -2784px;}
+.pineapple2                         {background-position: -064px -2784px;}
+.pineapple3                         {background-position: -096px -2784px;}
+.pineapple4                         {background-position: -128px -2784px;}
+.blueberry_seedlings                {background-position: -160px -2784px;}
+.pineapple_seedlings                {background-position: -192px -2784px;}
+.blueberry_cake                     {background-position: -224px -2784px;}
+.cheese_cake                        {background-position: -256px -2784px;}
+.chocolate_cake                     {background-position: -000px -2816px;}
+.strawberry_cake                    {background-position: -032px -2816px;}
+.rotten_flesh_cake                  {background-position: -064px -2816px;}
+.pineapple                          {background-position: -096px -2816px;}
+
 
 .speed                   {background-position: -000px -00px;}
 .slowness                {background-position: -018px -00px;}
@@ -2297,7 +2316,7 @@ span.ui a.xp_orb, a.xp_orb{
 .invisibility            {background-position: -054px -18px;}
 .blindness               {background-position: -072px -18px;}
 .night_vision            {background-position: -090px -18px;}
-.hunger                  {background-position: -108px -18px;}
+.hunger_effect           {background-position: -108px -18px;}
 .weakness                {background-position: -126px -18px;}
 .poison                  {background-position: -144px -18px;}
 .wither                  {background-position: -162px -18px;}
