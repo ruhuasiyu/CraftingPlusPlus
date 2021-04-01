@@ -489,17 +489,21 @@ span.ui a.xp_orb, a.xp_orb{
 .calcite                            {background-position: -480px -416px;}
 .tuff                               {background-position: -512px -416px;}
 .powder_snow_bucket                 {background-position: -544px -416px;}
-.dripstone                          {background-position: -576px -416px;}
+.dripstone_block                    {background-position: -576px -416px;}
 .pointed_dripstone                  {background-position: -608px -416px;}
 .white_candle                       {background-position: -640px -416px;}
 .yellow_candle                      {background-position: -672px -416px;}
-.oxidized_copper_block             {background-position: -768px -416px;}
-.oxidized_cut_copper               {background-position: -800px -416px;}
-.oxidized_cut_copper_slab          {background-position: -832px -416px;}
-.oxidized_cut_copper_stairs        {background-position: -864px -416px;}
+.oxidized_copper_block              {background-position: -768px -416px;}
+.oxidized_cut_copper                {background-position: -800px -416px;}
+.oxidized_cut_copper_slab           {background-position: -832px -416px;}
+.oxidized_cut_copper_stairs         {background-position: -864px -416px;}
 
-.copper_ore                         {background-position: -0px -448px;}
-.copper_ingot                       {background-position: -32px -448px;}
+.copper_ore                         {background-position: -000px -448px;}
+.copper_ingot                       {background-position: -032px -448px;}
+.moss_block                         {background-position: -384px -448px;}
+.rooted_dirt                        {background-position: -448px -448px;}
+
+.deepslate                          {background-position: -704px -480px;}
 
 .white_banner_mojang                {background-position: -512px -544px;}
 
@@ -546,7 +550,7 @@ span.ui a.xp_orb, a.xp_orb{
 .black_stained_glass_pane           {background-position: -096px -704px;}
 .blue_stained_glass_pane            {background-position: -288px -704px;}
 .yellow_terracotta                  {background-position: -416px -704px;}
-.brown_stained_glass_pane           {background-position: -480x -704px;}
+.brown_stained_glass_pane           {background-position: -480px -704px;}
 .cyan_stained_glass_pane            {background-position: -672px -704px;}
 .gray_stained_glass_pane            {background-position: -864px -704px;}
 
@@ -2297,6 +2301,9 @@ span.ui a.xp_orb, a.xp_orb{
 .strawberry_cake                    {background-position: -032px -2816px;}
 .rotten_flesh_cake                  {background-position: -064px -2816px;}
 .pineapple                          {background-position: -096px -2816px;}
+.deepslate_plugin                   {background-position: -128px -2816px;}
+.goat_head                          {background-position: -160px -2816px;}
+.mob_goat                           {background-position: -192px -2816px;}
 
 
 .speed                   {background-position: -000px -00px;}
