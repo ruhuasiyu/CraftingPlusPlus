@@ -505,6 +505,11 @@ span.ui a.xp_orb, a.xp_orb{
 
 .deepslate                          {background-position: -704px -480px;}
 
+.cobbled_deepslate                  {background-position: -000px -512px;}
+.raw_copper                         {background-position: -928px -512px;}
+.raw_gold                           {background-position: -960px -512px;}
+.raw_iron                           {background-position: -992px -512px;}
+
 .white_banner_mojang                {background-position: -512px -544px;}
 
 .baked_potato                       {background-position: -384px -640px;}
@@ -1493,7 +1498,7 @@ span.ui a.xp_orb, a.xp_orb{
 .stone_sword                        {background-position: -736px -3616px;}
 .totem_of_undying                   {background-position: -768px -3616px;}
 .wooden_sword                       {background-position: -800px -3616px;}
-.empty                              {background-position: -32px -3520px;}
+.empty                              {background-position: -032px -3520px;}
 
 
 .all_in_one_machine                 {background-position: -032px -000px;}
@@ -2305,7 +2310,6 @@ span.ui a.xp_orb, a.xp_orb{
 .goat_head                          {background-position: -160px -2816px;}
 .mob_goat                           {background-position: -192px -2816px;}
 
-
 .speed                   {background-position: -000px -00px;}
 .slowness                {background-position: -018px -00px;}
 .haste                   {background-position: -036px -00px;}
@@ -2345,4 +2349,3 @@ span.ui a.xp_orb, a.xp_orb{
 .armor_half              {background-position: -126px -54px;}
 .hunger                  {background-position: -144px -54px;}
 .hunger_half             {background-position: -162px -54px;}
-
