@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-Hans-CN">
+<head>
+<meta charset="utf-8" />
+<title>合成器 - 更多的合成 Crafting++</title>
+<meta name='author' content='ruhuasiyu@mcbbs' />
+<meta name='keywords' content='minecraft, 原版模组, vanilla mod, datapacks, Crafting++' />
+<meta name='description' content='Minecraft 原版模组 更多的合成' />
+<meta name='revised' content='ruhuasiyu@mcbbs' />
+<base href="" />
+<link rel="shortcut icon" href="items/favicon.ico" />
+<link rel="stylesheet" href="items/style.css" />
+</head>
+
+<body>
+<iframe src="目录.html" style="width: 12%;position: fixed;height: 100%;top: 0; left: 0;"></iframe>
+<div id="main_part">
+<article>
+<h2 id="合成器">合成器 (Crafting Machine)</h2>
+<code>物品命令 /loot give @s loot cpp:crafting_machine</code>
+<p>合成器是本模组用于合成的一个实用型方块。</p>
+<h2 id="获取">获取</h2>
+<p>合成器可使用任意工具或直接空手采集，但斧是最快的。</p>
+
+<table class="table-mining">
+	<tbody>
+		<tr><th>方块</th><th>合成器</th></tr>
+		<tr><th>硬度</th><td>2.5</td></tr>
+		<tr><th>工具</th><td>斧</td></tr>
+		<tr><th colspan="2">挖掘用时</th></tr>
+		<tr><th>徒手</th><td class="tc-yes">3.75</td></tr>
+		<tr><th>木质</th><td class="tc-yes">1.9</td></tr>
+		<tr><th>石质</th><td class="tc-yes">0.95</td></tr>
+		<tr><th>铁质</th><td class="tc-yes">0.65</td></tr>
+		<tr><th>钻石质</th><td class="tc-yes">0.5</td></tr>
+		<tr><th>下界合金质</th><td class="tc-yes">0.45</td></tr>
+		<tr><th>金质</th><td class="tc-yes">0.35</td></tr>
+	</tbody>
+</table>
+
+<h3 id="合成">合成</h3>
+<table><thead><tr><th>材料</th><th>合成配方</th>
+</tr></thead><tbody>
+<tr><td><a href="#附魔之瓶">附魔之瓶</a>+工作台</td>
+	<td><span class="ui ct" title="工作台">
+		<a href="#附魔之瓶" class="experience_bottle" title="附魔之瓶"></a>
+		<a href="#附魔之瓶" class="experience_bottle" title="附魔之瓶"></a>
+		<a href="#附魔之瓶" class="experience_bottle" title="附魔之瓶"></a>
+		<a href="#附魔之瓶" class="experience_bottle" title="附魔之瓶"></a>
+		<a class="crafting_table" title="工作台"></a>
+		<a href="#附魔之瓶" class="experience_bottle" title="附魔之瓶"></a>
+		<a href="#附魔之瓶" class="experience_bottle" title="附魔之瓶"></a>
+		<a href="#附魔之瓶" class="experience_bottle" title="附魔之瓶"></a>
+		<a href="#附魔之瓶" class="experience_bottle" title="附魔之瓶"></a>
+		<a class="ci crafting_machine" title="合成器"></a>
+	</span></td></tr>
+</tbody></table>
+<figure>
+	<img style="height:160px" src="items/screenshots/crafting_machine.png" alt="合成器机器界面" />
+	<figcaption>图 合成器界面</figcaption>
+</figure>
+<h2 id="用途">用途</h1>
+<p>将物品放入合成器界面左侧九宫格输入栏即可自动合成出产物。</p>
+<p class="note">合成器的函数接口 <code>function #cpp:crafting_machine</code> 调用于 <code>cpp/functions/crafting_machine/type.mcfunction</code>。配方按物品数量分类，位于 <code>cpp/predicates/crafting_machine</code> 和 <code>cpp/loot_tables/crafting_machine</code>。</p>
+
+<footer>
+<p>
+	<a href="https://zhangshenxing.gitee.io/craftingplusplus/" title="更多的合成" class="ui ci portable_crafting_machine"></a>
+	<a href="http://www.mcbbs.net/thread-696861-1-1.html"><img src="items/mcbbs.png" alt="Mcbbs" title="Minecraft(我的世界)中文论坛"></a>
+	<a href="https://www.mcmod.cn/class/1297.html"><img src="items/mcmod.png" alt="Mcbbs" title="MC百科"></a>
+	<a href="https://github.com/ruhuasiyu/CraftingPlusPlus"><img src="items/github.png" alt="GitHub" title="GitHub" /></a>
+	<a href="https://gitee.com/zhangshenxing/CraftingPlusPlus"><img src="items/gitee.svg" alt="Gitee" title="Gitee" /></a>
+	<a href="https://afdian.net/@ruhuasiyu/"><img src="items/afdian.png" alt="爱发电" /></a>
+	<a href="./items/wechatcode.png"><img src="items/wechat.png" alt="微信赞赏码" /></a>
+	<a href="./items/alipaycode.png"><img src="items/alipay.png" alt="支付宝收钱码" /></a>
+	<a href="https://space.bilibili.com/4469715"><img src="items/bilibili.png" alt="哔哩哔哩" /></a>
+</p>
+
+<p>最后更新 2021-02-09</p>
+</footer>
+
+</article>
+</div>
+</body></html>

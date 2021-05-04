@@ -6,10 +6,6 @@
 html{
 	font-family: "Microsoft Yahei", Tahoma;
 }
-div.test img{
-	height: 128px;
-	width: 64px;
-}
 body{
 	margin: 0;
 }
@@ -912,12 +908,14 @@ span.ui a.xp_orb, a.xp_orb{
 .pufferfish                         {background-position: -864px -1664px;}
 .cod                                {background-position: -896px -1664px;}
 .salmon                             {background-position: -928px -1664px;}
+
 .tube_coral_block                   {background-position: -288px -1696px;}
 .brain_coral_block                  {background-position: -320px -1696px;}
 .bubble_coral_block                 {background-position: -352px -1696px;}
 .fire_coral_block                   {background-position: -384px -1696px;}
 .horn_coral_block                   {background-position: -416px -1696px;}
 .tube_coral                         {background-position: -448px -1696px;}
+.brain_coral                        {background-position: -480px -1696px;}
 .trident                            {background-position: -608px -1696px;}
 .brain_coral_fan                    {background-position: -832px -1696px;}
 
