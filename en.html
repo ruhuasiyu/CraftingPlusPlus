@@ -11,23 +11,23 @@
 <link rel="shortcut icon" href="items/favicon.ico" />
 <link rel="stylesheet" href="items/items_css.css" />
 <style>
-	body{
-		font-size: 90%;
-	}
-	span.version:before{ 
-		content:"Version ";
-		color: #ccccff;
-	}
-	code{
-		color:black;
-		font-weight: normal;
-		font-size:100%;
-		background-color:white;
-		font-family: Courier;
-	}
-	figcaption, p.note{
-		font-family: Courier;
-	}
+body{
+	font-size: 90%;
+}
+span.version:before{ 
+	content:"Version ";
+	color: #ccccff;
+}
+code{
+	color:black;
+	font-weight: normal;
+	font-size:100%;
+	background-color:white;
+	font-family: Courier;
+}
+figcaption, p.note{
+	font-family: Courier;
+}
 nav ul ul{
 	width: 150%;
 	margin-left:100%;
@@ -399,65 +399,20 @@ nav ul ul:nth-child(7){
 
 <article>
 <h1 id="Introduction">Crafting++ </h1>
-<p>🎉Welcome to visit the datapack"Crafting++" page! Crafting++ consists of hundreds of items and a skyisland mode. The goal is </p>
-<pre>
-	Few fixed tech trees, more ways to obtain items
-	Few fixed manual and arguments, more research project
-	Few useful machines, more simple and useless decorations
-</pre>
-<p>It mainly contains</p>
-<ul>
-<li>Elements -- including sky, earth, mountain, dirt, water, fire, life, which corresponds to different mobs, rare drops, force of element and potions. They are used in crafting and rituals.</li>
-<li>Experience -- used in crafting, machines, tools, wands, rituals.</li>
-<li>Machine -- All-in-one Machine to grinde, smelt, farm, make stone; Trade Machine to obtain trade automatically; Item Processor to process items; Mob Projector to generate mobs; Beacon Enchancer to provide more effects; Golden Anvil to handle enchantments.</li>
-<li>Golem -- fishing, farming, mining, herding, killing automatically.</li>
-<li>Research -- to determine arguments in smelting, rituals for enchanted books, hybridize.</li>
-<li>Food and decorations -- 41 plants, 82 foods, 79 heads, 21 cloth, 40 spring decorations, 50 pictures, 103 characters, 16 signs, 100 titles, and flags, sheilds.</li>
-</ul>
-<p>Create <a href="https://gitee.com/zhangshenxing/CraftingPlusPlus/issues/new">issues</a> if you find any bugs or have any suggestions, please provide the version (Minecraft and Crafting++).</p>
+<p>🎉<i>Crafting++</i> is a Minecraft datapack. It contains various of items and a skyisland mode. It makes the experience more useful. It also contains many foods and decorations.</p>
 
-<h3 id="Download and install">📦 Download and install</h3>
-<table><thead><tr><th>Minecraft</th>
-	<th>Crafting++</th>
-	<th>Download</th></tr></thead>
-<tbody>
-	<tr>
-		<td>Java 20w51a</td>
-		<td>v1.12-0104</td>
-		<td><a href="https://gitee.com/zhangshenxing/CraftingPlusPlus/releases/v1.12-0104">Gitee</a> |
-			<a href="https://github.com/ruhuasiyu/CraftingPlusPlus/releases/tag/v1.12-0104">GitHub</a> |
-			<a href="http://home.ustc.edu.cn/~zsxqq/craftingpp/v1.12-0104.zip">Others</a></td>
-	</tr>
-	<tr>
-		<td>Java 1.16.2-1.16.4</td>
-		<td>v1.11.2-0104</td>
-		<td><a href="https://gitee.com/zhangshenxing/CraftingPlusPlus/releases/v1.11.2-0104">Gitee</a> |
-			<a href="https://github.com/ruhuasiyu/CraftingPlusPlus/releases/tag/v1.11.2-0104">GitHub</a> |
-			<a href="http://home.ustc.edu.cn/~zsxqq/craftingpp/v1.11.2-0104.zip">Others</a></td>
-	</tr>
-</tbody></table>
+<p><a href="https://www.mcmod.cn/download/1297.html">Download</a>, copy it into the datapacks / resourcepacks folders and enable it. This datapack supports Chinese (simplified and traditional) and English.</p>
 
-<p>Download. Copy into the datapacks / resourcepacks folders and enable it. This datapack supports Chinese (simplified and traditional) and English.</p>
-
-<h3 id="FAQ">📄 FAQ</h3>
-<p>Q: How to craft?<br />
-	A: use <a href="#Crafting Machine">Crafting Machine</a> if neccessary (green background).</p>
-<p>Q: How to obtain <a href="#Experience Bottle">Experience Bottle</a>s?<br />
-	A: Put a hopper in your offhand.</p>
-<p>Q: How to start the skyisland mode?<br />
-	A: Create a flat world such as <code>minecraft:air;minecraft:mountains;</code>, see <a href="#Skyisland">Skyisland Mode</a>.</p>
-<p>Q: Sugar canes in skyisland mode?<br />
-	A: Trade with wandering traders or use <a href="#Purple Force of Life">Purple Force of Life</a>.</p>
-
-<h3 id="Commands">📄 Commands</h3>
-<p>Use <code>loot</code> command to obtain items: <code>/loot give @s loot [Namespace ID]</code>, e.g. <code>/loot give @s loot cpp:all_in_one_machine</code>.</p>
+<p>You need put a hopper in offhand to store your experience to <a href="#Experience Bottle">Experience Bottles</a>. Use <a href="#Crafting Machine">Crafting Machine</a> to craft if neccessary (green background).</p>
+<p>Create a flat world such as <code>minecraft:air;minecraft:mountains;</code> to enable the <a href="#Skyisland">skyisland mode</a>.</p>
+<p>Use <code>/loot give @s loot [Namespace ID]</code> to obtain items, e.g. <code>/loot give @s loot cpp:all_in_one_machine</code>.</p>
 
 <h3 id="Credits">👷 Credits</h3>
 <p><span style="font-weight:bold;">Datapack</span>: ruhuasiyu</p>
 <p><span style="font-weight:bold;">Resourcepack</span>: ruhuasiyu, rubbertree, zqk_china, Xe_Kr</p>
 <p><span style="font-weight:bold;">Sponsored by </span>: <span style="color:blue;">月下贱影 一米八微笑 明月庄主 SPGoding Rhythm萱 唯一丶为伊 8Index LIXIAOGANG 陌余Oucher uuu2011 爱发电用户_AU9c 甘小蔗 空白 火星浮云 这是彩虹Sugar呢 古镇天 支持国产mod 倪采臣 zzzz 大吃货 折君 Hao_Tian22 Appleeeee 爱发电用户_JCmn 落天望月 爱发电用户_4eyN switefaster Cat君 chyx TUCAOEVER</span></p>
 <!--一米八微笑 250 明月庄主 250 Rhythm萱8Index 128 月下贱影 300 LIXIAOGANG 96 SPGoding 136 墨Fish 86 uuu2011 66 火星浮云 64 匿名1 64 匿名2 50 这是彩虹Sugar呢 48 倪采臣大吃货 32 ustc_zzzz 32 折君 31 Apple果 落天望月 chyx switefaster Cat君-->
-<p>This datapack is also motivated by <a href="http://teamcofh.com/">Thermal Series</a>, <a href="https://botaniamod.net/">Botania</a>, <a href="http://www.abyssalcraft.com/">Abyssalcraft</a>, <a href="https://minecraft.curseforge.com/projects/pams-harvestcraft">Pams Harvestcraft</a>, <a href="https://www.mcmod.cn/class/250.html">Ex Nihilo</a>, <a href="https://ftb.gamepedia.com/ProjectE">ProjectE</a>, <a href="https://minecraft.curseforge.com/projects/saltymod">Salty</a> mods and some videos in <a href="https://www.bilibili.com/">Bilibili</a>, <a href="youtube.com">Youtube</a>. We also thank <a href="http://www.mcbbs.net/group-546-1.html">CBL</a>, <a href="http://www.mcbbs.net/group-1009-1.html">TCP</a>, <a href="http://www.mcbbs.net/group-1474-1.html">CBV</a>, <a href="http://www.mcbbs.net/group-1478-1.html">MAG</a>and 天Wolf星black, MC先Raw , pineapple_, 贰逼, ECS, pca, xuan_su, 乙烯_中国, ⊙v⊙, HerobrineXia, 白天, Apple果, SorrowRain, Amber, 匠魂, Gingerbread, fores_tbat, mcer, Stark, yap, Lakejason, Ph-苯, etc.</p>
+<p>This datapack is also motivated by <a href="http://teamcofh.com/">Thermal Series</a>, <a href="https://botaniamod.net/">Botania</a>, <a href="http://www.abyssalcraft.com/">Abyssalcraft</a>, <a href="https://minecraft.curseforge.com/projects/pams-harvestcraft">Pams Harvestcraft</a>, <a href="https://www.mcmod.cn/class/250.html">Ex Nihilo</a>, <a href="https://ftb.gamepedia.com/ProjectE">ProjectE</a>, <a href="https://minecraft.curseforge.com/projects/saltymod">Salty</a> mods and some videos in <a href="https://www.bilibili.com/">Bilibili</a>, <a href="youtube.com">Youtube</a>. We also thank <a href="http://www.mcbbs.net/group-546-1.html">CBL</a>, <a href="http://www.mcbbs.net/group-1009-1.html">TCP</a>, <a href="http://www.mcbbs.net/group-1474-1.html">CBV</a>, <a href="http://www.mcbbs.net/group-1478-1.html">MAG</a> and 天狼星black, MC先生 , pineapple_, 贰逼, ECS, pca, xuan_su, 乙烯_中国, ⊙v⊙, HerobrineXia, 白天, 苹果, SorrowRain, Amber, 匠魂, Gingerbread, 森林蝙蝠, mcer, Stark, yap, Lakejason, Ph-苯, Cjsah, etc.</p>
 
 <!--==================================================================-->
 <h2 id="Generation">Generation</h2>
@@ -467,11 +422,11 @@ nav ul ul:nth-child(7){
 <p>In overworld / flower world, put double flowers on an octagon, then put a white wool in the center, the portal will actived. The portal is one-way.</p>
 <figure>
 	<img style="height:260px" src="items/screenshots/flower_world.png" title="Flower World传送门" />
-	<figcaption>Figure: Flower World Portal and a Totem Pillar</figcaption>
+	<figcaption>Flower World Portal and a Totem Pillar</figcaption>
 </figure>
 <figure>
 	<img style="height:260px" src="items/screenshots/flower_portal.png" title="Flower World传送门" />
-	<figcaption>Figure: Flower World Portal (Pink and Yellow wools are not necessary)</figcaption>
+	<figcaption>Flower World Portal (Pink and Yellow wools are not necessary)</figcaption>
 </figure>
 
 <h3 id="Enchanting Room">Enchanting Room</h3>
@@ -479,7 +434,7 @@ nav ul ul:nth-child(7){
 <p>There are at most 3 stacks of items in every empty bookshelf, which may be papers, books, maps, compasses, random structures maps (exists in this dimension) and <a href="#Ancient Scroll">ancient scrolls</a>. </p>
 <figure>
 	<img style="height:260px" src="items/screenshots/enchanting_room.png" title="Totem Pillar and Enchanting Room" />
-	<figcaption>Figure: Totem Pillar and Enchanting Room</figcaption>
+	<figcaption>Totem Pillar and Enchanting Room</figcaption>
 </figure>
 
 <h3 id="Totem Pillar">Totem Pillar</h3>
@@ -492,15 +447,15 @@ nav ul ul:nth-child(7){
 </tbody></table>
 <figure>
 	<img style="height:260px" src="items/screenshots/totem_pillar.png" title="Totem Pillar" />
-	<figcaption>Figure: Totem Pillar</figcaption>
+	<figcaption>Totem Pillar</figcaption>
 </figure>
 
-<h3 id="FruitsTrees">FruitsTrees</h3>
+<h3 id="Fruit Trees">Fruit Trees</h3>
 <p>Generated on the surface in the flower world. The sharp is similar to birch trees with oak logs.</p>
 <p>There may be some <a href="#Fruits">fruits</a> under the tree. </p>
 <figure>
-	<img style="height:224px" src="items/screenshots/fruit_tree.png" title="伴有Field的FruitsTrees, Trees下可见Pomegranate"/>
-	<figcaption>Figure: 伴有Field的FruitsTrees, Trees下可见Pomegranate</figcaption>
+	<img style="height:224px" src="items/screenshots/fruit_tree.png" title="伴有Field的Fruit Trees, Trees下可见Pomegranate"/>
+	<figcaption>A fruit tree with several peaches</figcaption>
 </figure>
 
 <h3 id="Ore Tree">Ore Tree</h3>
@@ -508,7 +463,7 @@ nav ul ul:nth-child(7){
 	The leaves will become ores slowly.</p>
 <figure>
 	<img style="height:224px" src="items/screenshots/ore_tree.png" title="已有金矿 and Coal矿的Ore Tree" />
-	<figcaption>Figure: 已有金矿 and Coal矿的Ore Tree</figcaption>
+	<figcaption>An ore tree</figcaption>
 </figure>
 
 <h3 id="Wool Tree">Wool Tree</h3>
@@ -516,7 +471,7 @@ nav ul ul:nth-child(7){
 	The leaves will drop wool saplings, wools, fishes and sheep.</p>
 <figure>
 	<img style="height:224px" src="items/screenshots/wool_tree.png" title="五彩的Wool Tree" />
-	<figcaption>Figure: 五彩的Wool Tree</figcaption>
+	<figcaption>A wool tree</figcaption>
 </figure>
 
 <h3 id="Sakura Tree">Sakura Tree</h3>
@@ -524,21 +479,21 @@ nav ul ul:nth-child(7){
 	The leaves will drop sakura saplings and cherries.</p>
 <figure>
 	<img style="height:224px" src="items/screenshots/sakura_tree.png" title="Sakura Tree" />
-	<figcaption>Figure: Sakura Tree</figcaption>
+	<figcaption>A sakura tree</figcaption>
 </figure>
 
 <h3 id="Field">Field</h3>
-<p>Generated on the surface in the flower world, which consists of several crops (wheats, potatoes, carrots or beetroots).</p>
+<p>Generated on the surface in the flower world, which consists of several crops (wheats, potatoes, carrots or beetroots) or tomatoes, strawberries, blueberries, pineapple.</p>
 <figure>
 	<img style="height:190px" src="items/screenshots/fields.png" title="Field and 稻草人" />
-	<figcaption>Figure: Field and 稻草人</figcaption>
+	<figcaption>A field</figcaption>
 </figure>
 
 <h3 id="Flowers and Grasses Bushes">Flowers and Grasses Bushes</h3>
 <p>Generated on the surface in the flower world, which consists of several <a href="#Plants">flowers or grasses</a>. </p>
 <figure>
 	<img style="height:190px" src="items/screenshots/flowers.png" title="一簇Hyacinth" />
-	<figcaption>Figure: 一簇Hyacinth</figcaption>
+	<figcaption>一簇Hyacinth</figcaption>
 </figure>
 
 <!--==================================================================-->
@@ -553,7 +508,7 @@ nav ul ul:nth-child(7){
 <p class="note"><code>scoreboard players set $doCreeperImproving cppConfig 0 or 1</code> to disable/enable creeper enchancement.</p>
 <figure>
 	<img style="height:250px" src="items/screenshots/enhanced_mobs.png" alt="加强后的zombie , skeleton and High PressureCreeper" />
-	<figcaption>Figure: 加强后的zombie , skeleton and High PressureCreeper</figcaption>
+	<figcaption>加强后的zombie , skeleton and High PressureCreeper</figcaption>
 </figure>
 
 
@@ -592,7 +547,7 @@ nav ul ul:nth-child(7){
 </tbody></table>
 <figure>
 	<img style="height:250px" src="items/screenshots/dark_animal.png" alt="正在攻击玩家的黑暗Cow" />
-	<figcaption>Figure: 正在攻击玩家的黑暗Cow</figcaption>
+	<figcaption>正在攻击玩家的黑暗Cow</figcaption>
 </figure>
 
 <h3 id="sheep">sheep</h3>
@@ -625,7 +580,7 @@ nav ul ul:nth-child(7){
 <p>Villager and Wandering Trader will attracted by players handing Emerald blocks. Will drop 3 Xp and <code>1~(2 + Looting)</code> Emeralds. </p>
 <figure>
 	<img style="height:250px" src="items/screenshots/villager_drops.png" alt="VillagerDrops" />
-	<figcaption>Figure: VillagerDrops</figcaption>
+	<figcaption>VillagerDrops</figcaption>
 </figure>
 
 <h3 id="Trader">Trader</h3>
@@ -1362,7 +1317,7 @@ nav ul ul:nth-child(7){
 </tbody></table>
 <figure>
 	<img style="height:200px" src="items/screenshots/crafting_machine.png" alt="Crafting Machine机器 GUI" />
-	<figcaption>Figure: Crafting Machine GUI</figcaption>
+	<figcaption>Crafting Machine GUI</figcaption>
 </figure>
 <p>将Item放入Crafting Machine GUI左侧九宫格Input栏即可自动合成出Items. </p>
 <p class="note">Crafting Machine的函数接口 <code>function #cpp:crafting_machine</code> 调用于 <code>cpp/functions/crafting_machine/type.mcfunction</code>. Recipes按Item数量分类, 位于 <code>cpp/predicates/crafting_machine</code> and <code>cpp/loot_tables/crafting_machine</code>. </p>
@@ -1387,7 +1342,7 @@ nav ul ul:nth-child(7){
 </tbody></table>
 <figure>
 	<img style="height:200px" src="items/screenshots/all_in_one_machine.png" alt="All-in-one Machine机器 GUI" />
-	<figcaption>Figure: All-in-one Machine GUI</figcaption>
+	<figcaption>All-in-one Machine GUI</figcaption>
 </figure>
 
 <p>将Item放入All-in-one Machine GUI上侧两个栏位, 并在左侧按钮选择合适的压力 and 温度, 经过一定的时间之后会消耗xp值在下方两个栏位产出Item. Input的两种Materials顺序可以交换. 工作时, 中间的Advancements条会显示Advancements, 同时机器的外观也会变为动态. </p>
@@ -2223,7 +2178,7 @@ nav ul ul:nth-child(7){
 
 <figure>
 	<img style="height:200px" src="items/screenshots/trade_machine.png" alt="Trade Machine机器 GUI" />
-	<figcaption>Figure: Trade Machine机器 GUI</figcaption>
+	<figcaption>Trade Machine机器 GUI</figcaption>
 </figure>
 
 <p>Trade Machine拥有两种 Mode, 点击上方按钮切换. 每次工作完成后需要一段时间的冷却才再次工作. </p>
@@ -2819,7 +2774,7 @@ nav ul ul:nth-child(7){
 </tbody></table>
 <figure>
 	<img style="height:200px" src="items/screenshots/item_processer.png" alt="Item Processor GUI" />
-	<figcaption>Figure: Item Processor GUI</figcaption>
+	<figcaption>Item Processor GUI</figcaption>
 </figure>
 <p>左上方放入Tools, 左侧放入Materials, 机器会以每刻1次的Speed工作. 每次工作时, Tools若有耐久会消耗1点耐久, 否则不会被消耗. Tools可以是原版任意材质. </p>
 <p> 水桶/Lava Bucket可以被合理的<a href="#Green Force of Water">Green Force of Water</a>代替. </p>
@@ -3269,7 +3224,7 @@ nav ul ul:nth-child(7){
 </tbody></table>
 <figure>
 	<img style="height:200px" src="items/screenshots/mob_projector.png" alt="Mob Projector GUI" />
-	<figcaption>Figure: Mob Projector GUI</figcaption>
+	<figcaption>Mob Projector GUI</figcaption>
 </figure>
 <p>This machine will stop when strongly powered. Use 10 second to spawn at 2 meters below. </p>
 
@@ -3749,11 +3704,11 @@ nav ul ul:nth-child(7){
 </tbody></table>
 <figure>
 	<img style="height:200px" src="items/screenshots/beacon_enhancer.png" alt="Beacon Enhancer机器 GUI" />
-	<figcaption>Figure: Beacon Enhancer机器 GUI</figcaption>
+	<figcaption>Beacon Enhancer机器 GUI</figcaption>
 </figure>
 <figure>
 	<img style="height:200px" src="items/screenshots/sss.png" alt="全map信标 and Beacon Enhancer" />
-	<figcaption>Figure: 全map信标 and Beacon Enhancer</figcaption>
+	<figcaption>全map信标 and Beacon Enhancer</figcaption>
 </figure>
 <p>Beacon Enhancer被原版Redstone元件强充能时会停止工作. Beacon Enhancer下方为激活的信标才会工作. 左侧按钮用于选择对玩家Raw 效的正面状态效果, 右侧按钮用于选择对非玩家Raw 物Raw 效的负面状态效果, 最右侧按钮用于选择负面状态效果对所有非玩家Raw 物还是仅怪物Raw 效, 使用左键 or Q键切换. 对Villager无效. </p>
 <p>对玩家Raw 效的正面状态效果包括: 抗火, Night Vision, Water Breathing, Invisibility, Saturation , Chain, 对非玩家Raw 物Raw 效的负面状态效果包括: Weak, Slow, Glowing, poison, wither, 吸引(将附近的Raw 物传送至信标增强仪上方). 影响范围基于下方的信标等级, 为半径=10×(等级 + 1)的球形区域. </p>
@@ -3777,7 +3732,7 @@ nav ul ul:nth-child(7){
 </tbody></table>
 <figure>
 	<img style="height:200px" src="items/screenshots/golden_anvil.png" alt="Golden Anvil机器 GUI" />
-	<figcaption>Figure: Golden Anvil机器 GUI</figcaption>
+	<figcaption>Golden Anvil机器 GUI</figcaption>
 </figure>
 
 <p>Put item in the 2 slots above, the machine will consume xp and process item. </p>
@@ -3813,7 +3768,7 @@ nav ul ul:nth-child(7){
 
 <figure>
 	<img style="height:200px" src="items/screenshots/color_palette.png" alt="Color Palette GUI" />
-	<figcaption>Figure: Color Palette GUI</figcaption>
+	<figcaption>Color Palette GUI</figcaption>
 </figure>
 <p>Leather items: consume 1 closest dye. </p>
 <p>Firework star: adding corresponding color, consume 1 closest dye. </p>
@@ -5496,11 +5451,11 @@ nav ul ul:nth-child(7){
 </tr></tbody></table>
 <figure>
 	<img style="height:220px" src="items/screenshots/red_force_of_fire.png" alt="Red Force of Fire" />
-	<figcaption>Figure: Red Force of Fire</figcaption>
+	<figcaption>Red Force of Fire</figcaption>
 </figure>
 <figure>
 	<img style="height:220px" src="items/screenshots/blue_force_of_sky.png" alt="xp不足" />
-	<figcaption>Figure: xp不足</figcaption>
+	<figcaption>xp不足</figcaption>
 </figure>
 
 <h3 id="Portable Crafting Table">Portable Crafting Table <code>cpp:portable_crafting_table</code></h3>
@@ -6002,7 +5957,7 @@ nav ul ul:nth-child(7){
 <h3 id="Chainmail Armors">Chainmail Armors</h3>
 <figure>
 	<img style="height:200px;" src="items/screenshots/chainmail_armors.png" alt="Chainmail Armors" />
-	<figcaption>Figure: Chainmail Armors</figcaption>
+	<figcaption>Chainmail Armors</figcaption>
 </figure>
 <p>Modify the textures of the chainmail armors. </p>
 <table><thead><tr><th>Name</th><th>Ingredients</th><th>Crafting Recipes</th></tr></thead><tbody>
@@ -8419,10 +8374,10 @@ Right click to enable / disable.</th>
 
 <figure>
 	<img style="width:48%" src="items/screenshots/rituals.png" alt="Ritual on" />
-	<figcaption>Figure: Ritual on</figcaption>
+	<figcaption>Ritual on</figcaption>
 </figure>
 	<img style="width:48%" src="items/screenshots/helmet.png" alt="Modified diamond helmet" />
-	<figcaption>Figure: Modified diamond helmet</figcaption>
+	<figcaption>Modified diamond helmet</figcaption>
 </figure>
 
 <h3 id="Older Rituals">Older Rituals</h3>
@@ -9071,7 +9026,7 @@ Nichijou; Puella Magi Madoka Magica; Little Witch DoReMi; Little Witch Academia;
 	<img src="items/image/happiness.png" style="height:60px;" alt="Happiness" />
 	<img src="items/image/harvest.png" style="height:60px;" alt="Harvest" />
 	<img src="items/image/prosperous.png" style="height:60px;" alt="Prosperous" />
-	<figcaption>Figure: Spring Festival Decorations</figcaption>
+	<figcaption>Spring Festival Decorations</figcaption>
 </figure>
 
 <table><thead><tr><th>Name</th>
@@ -9388,7 +9343,7 @@ Nichijou; Puella Magi Madoka Magica; Little Witch DoReMi; Little Witch Academia;
 <p>If your mainhand is empty and there is a shulker box in the offhand, an item will randomly choosen to your mainhand from the shulker box.</p>
 <figure>
 	<img style="height:200px" src="items/screenshots/random_block.png" alt="Random blocks" />
-	<figcaption>Figure: Random blocks</figcaption>
+	<figcaption>Random blocks</figcaption>
 </figure>
 
 
@@ -9401,7 +9356,7 @@ Nichijou; Puella Magi Madoka Magica; Little Witch DoReMi; Little Witch Academia;
 <h3 id="Vertical Blocks">Vertical Blocks</h3>
 <figure>
 	<img style="height:160px" src="items/screenshots/vertical_blocks.png" alt="Vertical Blocks" /></p>
-	<figcaption>Figure: Vertical Blocks</figcaption>
+	<figcaption>Vertical Blocks</figcaption>
 </figure>
 
 
