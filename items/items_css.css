@@ -231,7 +231,7 @@ table.characters a{
 	background-size: 128px 256px;
 }
 /* 图标 */
-.smallicons a, nav span{
+a.smallicons, .smallicons a, nav span{
 	display: inline-block;
 	width: 16px; height: 16px;
 	background-size: 16px 16px;
@@ -399,12 +399,15 @@ em{
 .activator_rail                      {background-image: url(minecraft/activator_rail.png);}
 .allium                              {background-image: url(minecraft/allium.png);}
 .amethyst_block                      {background-image: url(minecraft/amethyst_block.png);}
+.amethyst_cluster                    {background-image: url(minecraft/amethyst_cluster.png);}
 .ancient_debris                      {background-image: url(minecraft/ancient_debris.png);}
 .andesite                            {background-image: url(minecraft/andesite.png);}
 .andesite_slab                       {background-image: url(minecraft/andesite_slab.png);}
 .andesite_stairs                     {background-image: url(minecraft/andesite_stairs.png);}
 .andesite_wall                       {background-image: url(minecraft/andesite_wall.png);}
 .anvil                               {background-image: url(minecraft/anvil.png);}
+.azalea                              {background-image: url(minecraft/azalea.png);}
+.azalea_leaves                       {background-image: url(minecraft/azalea_leaves.png);}
 .azure_bluet                         {background-image: url(minecraft/azure_bluet.png);}
 .bamboo                              {background-image: url(minecraft/bamboo.png);}
 .barrel                              {background-image: url(minecraft/barrel.png);}
@@ -520,6 +523,7 @@ em{
 .conduit                             {background-image: url(minecraft/conduit.png);}
 .copper_block                        {background-image: url(minecraft/copper_block.png);}
 .copper_ores                         {background-image: url(minecraft/copper_ores.gif);}
+.coppers                             {background-image: url(minecraft/coppers.gif);}
 .coral_block                         {background-image: url(minecraft/coral_block.gif);}
 .cornflower                          {background-image: url(minecraft/cornflower.png);}
 .cracked_nether_bricks               {background-image: url(minecraft/cracked_nether_bricks.png);}
@@ -543,6 +547,9 @@ em{
 .crimson_stem                        {background-image: url(minecraft/crimson_stem.png);}
 .crimson_trapdoor                    {background-image: url(minecraft/crimson_trapdoor.png);}
 .crying_obsidian                     {background-image: url(minecraft/crying_obsidian.png);}
+.cut_copper                          {background-image: url(minecraft/cut_copper.png);}
+.cut_copper_slab                     {background-image: url(minecraft/cut_copper_slab.png);}
+.cut_copper_stairs                   {background-image: url(minecraft/cut_copper_stairs.png);}
 .cut_red_sandstone                   {background-image: url(minecraft/cut_red_sandstone.png);}
 .cut_red_sandstone_slab              {background-image: url(minecraft/cut_red_sandstone_slab.png);}
 .cut_sandstone                       {background-image: url(minecraft/cut_sandstone.png);}
@@ -620,6 +627,10 @@ em{
 .end_stone_brick_wall                {background-image: url(minecraft/end_stone_brick_wall.png);}
 .end_stone_bricks                    {background-image: url(minecraft/end_stone_bricks.png);}
 .ender_chest                         {background-image: url(minecraft/ender_chest.png);}
+.exposed_copper                      {background-image: url(minecraft/exposed_copper.png);}
+.exposed_cut_copper                  {background-image: url(minecraft/exposed_cut_copper.png);}
+.exposed_cut_copper_slab             {background-image: url(minecraft/exposed_cut_copper_slab.png);}
+.exposed_cut_copper_stairs           {background-image: url(minecraft/exposed_cut_copper_stairs.png);}
 .farmland                            {background-image: url(minecraft/farmland.png);}
 .fern                                {background-image: url(minecraft/fern.png);}
 .fire_coral                          {background-image: url(minecraft/fire_coral.png);}
@@ -627,6 +638,8 @@ em{
 .fire_coral_fan                      {background-image: url(minecraft/fire_coral_fan.png);}
 .fletching_table                     {background-image: url(minecraft/fletching_table.png);}
 .flower_pot                          {background-image: url(minecraft/flower_pot.png);}
+.flowering_azalea                    {background-image: url(minecraft/flowering_azalea.png);}
+.flowering_azalea_leaves             {background-image: url(minecraft/flowering_azalea_leaves.png);}
 .furnace                             {background-image: url(minecraft/furnace.png);}
 .gilded_blackstone                   {background-image: url(minecraft/gilded_blackstone.png);}
 .glass                               {background-image: url(minecraft/glass.png);}
@@ -634,6 +647,8 @@ em{
 .glowstone                           {background-image: url(minecraft/glowstone.png);}
 .gold_block                          {background-image: url(minecraft/gold_block.png);}
 .gold_ore                            {background-image: url(minecraft/gold_ore.png);}
+.gold_ores                           {background-image: url(minecraft/gold_ores.gif);}
+.gold_oress                          {background-image: url(minecraft/gold_oress.gif);}
 .granite                             {background-image: url(minecraft/granite.png);}
 .granite_slab                        {background-image: url(minecraft/granite_slab.png);}
 .granite_stairs                      {background-image: url(minecraft/granite_stairs.png);}
@@ -684,6 +699,7 @@ em{
 .iron_door                           {background-image: url(minecraft/iron_door.png);}
 .iron_block                          {background-image: url(minecraft/iron_block.png);}
 .iron_ore                            {background-image: url(minecraft/iron_ore.png);}
+.iron_ores                           {background-image: url(minecraft/iron_ores.gif);}
 .iron_trapdoor                       {background-image: url(minecraft/iron_trapdoor.png);}
 .jack_o_lantern                      {background-image: url(minecraft/jack_o_lantern.png);}
 .jigsaw                              {background-image: url(minecraft/jigsaw.png);}
@@ -708,6 +724,7 @@ em{
 .lapis_block                         {background-image: url(minecraft/lapis_block.png);}
 .lapis_ore                           {background-image: url(minecraft/lapis_ore.png);}
 .large_fern                          {background-image: url(minecraft/large_fern.png);}
+.leaves                              {background-image: url(minecraft/leaves.gif);}
 .lectern                             {background-image: url(minecraft/lectern.png);}
 .lever                               {background-image: url(minecraft/lever.png);}
 .light_blue_banner                   {background-image: url(minecraft/light_blue_banner.png);}
@@ -748,6 +765,7 @@ em{
 .lime_terracotta                     {background-image: url(minecraft/lime_terracotta.png);}
 .lime_wool                           {background-image: url(minecraft/lime_wool.png);}
 .lodestone                           {background-image: url(minecraft/lodestone.png);}
+.log_and_stem                        {background-image: url(minecraft/log_and_stem.gif);}
 .loom                                {background-image: url(minecraft/loom.png);}
 .magenta_banner                      {background-image: url(minecraft/magenta_banner.png);}
 .magenta_bed                         {background-image: url(minecraft/magenta_bed.png);}
@@ -815,6 +833,10 @@ em{
 .orange_tulip                        {background-image: url(minecraft/orange_tulip.png);}
 .orange_wool                         {background-image: url(minecraft/orange_wool.png);}
 .oxeye_daisy                         {background-image: url(minecraft/oxeye_daisy.png);}
+.oxidized_copper                     {background-image: url(minecraft/oxidized_copper.png);}
+.oxidized_cut_copper                 {background-image: url(minecraft/oxidized_cut_copper.png);}
+.oxidized_cut_copper_slab            {background-image: url(minecraft/oxidized_cut_copper_slab.png);}
+.oxidized_cut_copper_stairs          {background-image: url(minecraft/oxidized_cut_copper_stairs.png);}
 .packed_ice                          {background-image: url(minecraft/packed_ice.png);}
 .peony                               {background-image: url(minecraft/peony.png);}
 .petrified_oak_slab                  {background-image: url(minecraft/petrified_oak_slab.png);}
@@ -831,6 +853,7 @@ em{
 .pink_tulip                          {background-image: url(minecraft/pink_tulip.png);}
 .pink_wool                           {background-image: url(minecraft/pink_wool.png);}
 .piston                              {background-image: url(minecraft/piston.png);}
+.planks                              {background-image: url(minecraft/planks.gif);}
 .player_head                         {background-image: url(minecraft/player_head.png);}
 .podzol                              {background-image: url(minecraft/podzol.png);}
 .polished_andesite                   {background-image: url(minecraft/polished_andesite.png);}
@@ -885,6 +908,9 @@ em{
 .quartz_slab                         {background-image: url(minecraft/quartz_slab.png);}
 .quartz_stairs                       {background-image: url(minecraft/quartz_stairs.png);}
 .rail                                {background-image: url(minecraft/rail.png);}
+.raw_copper_block                    {background-image: url(minecraft/raw_copper_block.png);}
+.raw_gold_block                      {background-image: url(minecraft/raw_gold_block.png);}
+.raw_iron_block                      {background-image: url(minecraft/raw_iron_block.png);}
 .red_banner                          {background-image: url(minecraft/red_banner.png);}
 .red_bed                             {background-image: url(minecraft/red_bed.png);}
 .red_carpet                          {background-image: url(minecraft/red_carpet.png);}
@@ -921,6 +947,7 @@ em{
 .sandstone_slab                      {background-image: url(minecraft/sandstone_slab.png);}
 .sandstone_stairs                    {background-image: url(minecraft/sandstone_stairs.png);}
 .sandstone_wall                      {background-image: url(minecraft/sandstone_wall.png);}
+.saplings                            {background-image: url(minecraft/saplings.gif);}
 .scaffolding                         {background-image: url(minecraft/scaffolding.png);}
 .sea_lantern                         {background-image: url(minecraft/sea_lantern.png);}
 .sea_pickle                          {background-image: url(minecraft/sea_pickle.png);}
@@ -986,12 +1013,14 @@ em{
 .stripped_dark_oak_wood              {background-image: url(minecraft/stripped_dark_oak_wood.png);}
 .stripped_jungle_log                 {background-image: url(minecraft/stripped_jungle_log.png);}
 .stripped_jungle_wood                {background-image: url(minecraft/stripped_jungle_wood.png);}
+.stripped_log_and_stem               {background-image: url(minecraft/stripped_log_and_stem.gif);}
 .stripped_oak_log                    {background-image: url(minecraft/stripped_oak_log.png);}
 .stripped_oak_wood                   {background-image: url(minecraft/stripped_oak_wood.png);}
 .stripped_spruce_log                 {background-image: url(minecraft/stripped_spruce_log.png);}
 .stripped_spruce_wood                {background-image: url(minecraft/stripped_spruce_wood.png);}
 .stripped_warped_hyphae              {background-image: url(minecraft/stripped_warped_hyphae.png);}
 .stripped_warped_stem                {background-image: url(minecraft/stripped_warped_stem.png);}
+.stripped_wood_and_nyphae            {background-image: url(minecraft/stripped_wood_and_nyphae.gif);}
 .structure_block                     {background-image: url(minecraft/structure_block.png);}
 .structure_void                      {background-image: url(minecraft/structure_void.png);}
 .sugar_cane                          {background-image: url(minecraft/sugar_cane.png);}
@@ -1026,6 +1055,23 @@ em{
 .warped_stem                         {background-image: url(minecraft/warped_stem.png);}
 .warped_trapdoor                     {background-image: url(minecraft/warped_trapdoor.png);}
 .warped_wart_block                   {background-image: url(minecraft/warped_wart_block.png);}
+.waxed_coppers                       {background-image: url(minecraft/waxed_coppers.gif);}
+.waxed_exposed_copper                {background-image: url(minecraft/waxed_exposed_copper.png);}
+.waxed_exposed_cut_copper            {background-image: url(minecraft/waxed_exposed_cut_copper.png);}
+.waxed_exposed_cut_copper_slab       {background-image: url(minecraft/waxed_exposed_cut_copper_slab.png);}
+.waxed_exposed_cut_copper_stairs     {background-image: url(minecraft/waxed_exposed_cut_copper_stairs.png);}
+.waxed_oxidized_copper               {background-image: url(minecraft/waxed_oxidized_copper.png);}
+.waxed_oxidized_cut_copper           {background-image: url(minecraft/waxed_oxidized_cut_copper.png);}
+.waxed_oxidized_cut_copper_slab      {background-image: url(minecraft/waxed_oxidized_cut_copper_slab.png);}
+.waxed_oxidized_cut_copper_stairs    {background-image: url(minecraft/waxed_oxidized_cut_copper_stairs.png);}
+.waxed_weathered_copper              {background-image: url(minecraft/waxed_weathered_copper.png);}
+.waxed_weathered_cut_copper          {background-image: url(minecraft/waxed_weathered_cut_copper.png);}
+.waxed_weathered_cut_copper_slab     {background-image: url(minecraft/waxed_weathered_cut_copper_slab.png);}
+.waxed_weathered_cut_copper_stairs   {background-image: url(minecraft/waxed_weathered_cut_copper_stairs.png);}
+.weathered_copper                    {background-image: url(minecraft/weathered_copper.png);}
+.weathered_cut_copper                {background-image: url(minecraft/weathered_cut_copper.png);}
+.weathered_cut_copper_slab           {background-image: url(minecraft/weathered_cut_copper_slab.png);}
+.weathered_cut_copper_stairs         {background-image: url(minecraft/weathered_cut_copper_stairs.png);}
 .weeping_vines                       {background-image: url(minecraft/weeping_vines.png);}
 .wet_sponge                          {background-image: url(minecraft/wet_sponge.png);}
 .white_banner                        {background-image: url(minecraft/white_banner.png);}
@@ -1042,6 +1088,7 @@ em{
 .white_wool                          {background-image: url(minecraft/white_wool.png);}
 .wither_rose                         {background-image: url(minecraft/wither_rose.png);}
 .wither_skeleton_skull               {background-image: url(minecraft/wither_skeleton_skull.png);}
+.wood_and_nyphae                     {background-image: url(minecraft/wood_and_nyphae.gif);}
 .yellow_banner                       {background-image: url(minecraft/yellow_banner.png);}
 .yellow_bed                          {background-image: url(minecraft/yellow_bed.png);}
 .yellow_carpet                       {background-image: url(minecraft/yellow_carpet.png);}
@@ -1073,6 +1120,7 @@ em{
 .blaze_rod                           {background-image: url(minecraft/blaze_rod.png);}
 .blaze_spawn_egg                     {background-image: url(minecraft/blaze_spawn_egg.png);}
 .blue_dye                            {background-image: url(minecraft/blue_dye.png);}
+.boats                               {background-image: url(minecraft/boats.gif);}
 .bone_meal                           {background-image: url(minecraft/bone_meal.png);}
 .bone                                {background-image: url(minecraft/bone.png);}
 .book                                {background-image: url(minecraft/book.png);}
@@ -1689,6 +1737,8 @@ em{
 .donkey_meat                    {background-image: url(cpp/donkey_meat.png);}
 .double_color_vine_salad        {background-image: url(cpp/double_color_vine_salad.png);}
 .doughnut                       {background-image: url(cpp/doughnut.png);}
+.dragon_breath_berries          {background-image: url(cpp/dragon_breath_berries.png);}
+.dragon_breath_berry_seedlings  {background-image: url(cpp/dragon_breath_berry_seedlings.png);}
 .dream_wand                     {background-image: url(cpp/dream_wand.png);}
 .drowned_head                   {background-image: url(cpp/drowned_head.png);}
 .dumpling                       {background-image: url(cpp/dumpling.png);}
