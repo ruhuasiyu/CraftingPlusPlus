@@ -179,6 +179,7 @@
 	<li><a href="#傀儡牧民"><span class="golem_herder"></span> 傀儡牧民</a></li>
 	<li><a href="#圣诞礼物"><span class="santa_gift"></span> 圣诞礼物</a></li>
 	<li><a href="#末影龙火球"><span class="dragon_fireball"></span> 末影龙火球</a></li>
+	<li><a href="#指花针"><span class="flower_compass"></span> 指花针</a></li>
 	<li><a href="#锁链盔甲"><span class="chainmail_helmet"></span> 锁链盔甲</a></li>
 </ul></li>
 <li class="up7"><a href="#饮食"><span class="strawberry_cake"></span> 饮食</a><ul>
@@ -1238,6 +1239,11 @@
 	<td><code>cpp:rabbit_head.toast</code></td>
 	<td>Toast 兔被玩家杀死时，有<code>2.5%+抢夺等级×1%</code>的几率掉落。<br />矿物辞典 <code>dict:["rabbit_head"]</code></td>
 </tr>
+<tr><th><strong id="杀手兔头">杀手兔头</strong></th>
+	<td><a class="ui rabbit_head_killer_bunny"></a></td>
+	<td><code>cpp:rabbit_head.killer_bunny</code></td>
+	<td>杀手兔被玩家杀死时，有<code>2.5%+抢夺等级×1%</code>的几率掉落。<br />矿物辞典 <code>dict:["rabbit_head"]</code></td>
+</tr>
 <tr><th><strong id="粉红色美西螈头">粉红色美西螈头</strong></th>
 	<td><a class="ui axolotl_head_lucy"></a></td>
 	<td><code>cpp:axolotl_head.lucy</code></td>
@@ -1731,7 +1737,7 @@
 	<td><a href="#稻谷">稻谷</a>、甘蔗、可可豆、仙人掌、垂泪藤<br />
 		缠怨藤、下界疣、蘑菇、草、蕨、海草<br />
 		睡莲、大型垂滴叶、花、藤蔓、<a href="#白睡莲">白睡莲</a><br />
-		发光地衣、发光浆果或<a href="#花草">野花</a>+<a href="#肥料">肥料</a></td>
+		<a href="#莲花">莲花</a>、发光地衣、发光浆果或<a href="#花草">野花</a>+<a href="#肥料">肥料</a></td>
 	<td><a class="ui rice"></a></td>
 	<td>4 对应植物</td>
 	<td>2</td>
@@ -6187,6 +6193,25 @@
 	</span></td></tr>
 </tbody></table>
 
+<h3 id="指花针">指花针 <code>cpp:flower_compass</code></h3>
+<p>在花世界中手持时，会指向最近的野生花草。如果没有则会指向最后一次坐标。</p>
+
+<table><thead><tr><th>材料</th><th>合成配方</th></tr></thead><tbody>
+<tr><td>末影之眼+指花针</td>
+	<td><span class="ui cm" title="合成器">
+		<a class="empty"></a>
+		<a class="ender_eye" title="末影之眼"></a>
+		<a class="empty"></a>
+		<a class="ender_eye" title="末影之眼"></a>
+		<a class="compass" title="指花针"></a>
+		<a class="ender_eye" title="末影之眼"></a>
+		<a class="empty"></a>
+		<a class="ender_eye" title="末影之眼"></a>
+		<a class="empty"></a>
+		<a class="flower_compass" title="指花针"></a>
+	</span></td></tr>
+</tbody></table>
+
 <h3 id="锁链盔甲">锁链盔甲</h3>
 <figure>
 	<img style="height:200px;" src="items/screenshots/chainmail_armors.png" alt="锁链盔甲" />
@@ -8845,8 +8870,7 @@
 	<th>命名空间ID</th>
 </tr></thead><tbody>
 <tr id="封印之杖">
-	<th><strong>封印之杖</strong><br />
-魔杖等级: 1</th>
+	<th><strong>封印之杖</strong></th>
 	<td><a href="#附魔铁锭">附魔铁锭</a>+<a href="#附魔金锭">附魔金锭</a>+木棍</td>
 	<td><span class="ui cm" title="合成器">
 		<a href="#附魔铁锭" class="enchanted_iron" title="附魔铁锭"></a>
@@ -8860,12 +8884,12 @@
 		<a href="#附魔铁锭" class="enchanted_iron" title="附魔铁锭"></a>
 		<a class="sealing_wand" title="封印之杖"></a>
 	</span></td>
-	<td><code>cpp:sealing_wand</code></td>
+	<td><code>cpp:sealing_wand</code><br />
+		魔杖等级: 1</td>
 </tr>
 
 <tr id="星之杖">
-	<th><strong>星之杖</strong><br />
-魔杖等级: 2</th>
+	<th><strong>星之杖</strong></th>
 	<td><a href="#月之碎片">月之碎片</a>+<a href="#日之碎片">日之碎片</a>+<a href="#封印之杖">封印之杖</a></td>
 	<td><span class="ui cm" title="合成器">
 		<a href="#月之碎片" class="moon_shard" title="月之碎片"></a>
@@ -8879,12 +8903,12 @@
 		<a href="#月之碎片" class="moon_shard" title="月之碎片"></a>
 		<a class="star_wand" title="星之杖"></a>
 	</span></td>
-	<td><code>cpp:star_wand</code></td>
+	<td><code>cpp:star_wand</code><br />
+魔杖等级: 2</td>
 </tr>
 
 <tr id="梦之杖">
-	<th><strong>梦之杖</strong><br />
-魔杖等级: 3</th>
+	<th><strong>梦之杖</strong></th>
 	<td>下界之星+<a href="#龙蛋">龙蛋</a>+<a href="#星之杖">星之杖</a></td>
 	<td><span class="ui cm" title="合成器">
 		<a class="nether_star" title="下界之星"></a>
@@ -8898,12 +8922,12 @@
 		<a class="nether_star" title="下界之星"></a>
 		<a class="dream_wand" title="梦之杖"></a>
 	</span></td>
-	<td><code>cpp:dream_wand</code></td>
+	<td><code>cpp:dream_wand</code><br />
+魔杖等级: 3</td>
 </tr>
 
 <tr id="节制器">
-	<th><strong>节制器</strong><br />
-右击可开启/关闭。</th>
+	<th><strong>节制器</strong></th>
 	<td>石头+附魔之瓶</td>
 	<td><span class="ui cm" title="合成器">
 		<a class="stone" title="石头"></a>
@@ -8917,7 +8941,8 @@
 		<a class="stone" title="石头"></a>
 		<a class="temperancer" title="节制器"></a>
 	</span></td>
-	<td><code>cpp:temperancer</code></td>
+	<td><code>cpp:temperancer</code><br />
+右击可开启/关闭。</td>
 </tr>
 </tbody></table>
 
@@ -9993,7 +10018,7 @@
 	<td><a class="character107"></a></td>
 	<td><a class="character108"></a></td>
 	<td><a class="character109"></a></td>
-	<td><a class="character101"></a></td></tr>
+	<td><a class="character110"></a></td></tr>
 <tr><th>诗之本秋穗</th>
 	<th>菈菈·萨塔琳·戴比路克</th>
 	<th>西连寺春菜</th>
@@ -10719,7 +10744,7 @@
 	<a href="https://gitee.com/zhangshenxing/CraftingPlusPlus"><img src="items/gitee.svg" alt="Gitee" title="Gitee" /></a>
 </p>
 
-<p>最后更新 2021-07-07</p>
+<p>最后更新 2021-07-12</p>
 </footer>
 
 </article>
