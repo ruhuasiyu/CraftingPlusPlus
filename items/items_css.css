@@ -166,7 +166,7 @@ figure{
 	margin-left: 0;
 }
 figcaption, p.note{
-	font-family: 楷体, SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace,Courier;
+	font-family: Arial, 楷体, monospace, Courier;
 }
 figure img{
 	border: rgb(219, 156, 30) 2px solid;
